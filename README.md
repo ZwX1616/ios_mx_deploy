@@ -3,7 +3,7 @@
 _using the mxnet c predict api_
   <br />
   <br />
-![](https://github.com/ZwX1616/placeholder.jpg)
+![](https://github.com/ZwX1616/ios_mx_deploy/blob/master/ios_mx_det/misc/Demo.GIF)
 
 
 Initially I tried to run a 50MB ssd object detection network on the iPhone and failed due to insufficient RAM. It currently runs a 5MB mobilenet (from the model zoo) for classification among 1000 classes. In order to detect objects (or even do segmentation), small networks like tinyyolo or tinyssd are essential for mobile devices.
